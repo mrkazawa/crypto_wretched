@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    alert("You are being hacked!", 1000);
+    alert("You are being hacked!");
 });
