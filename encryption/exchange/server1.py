@@ -22,7 +22,7 @@ but we exchange the key through file creation.
 """
 
 # generate the partial key of diffie-hellman
-partial_key = utils.generate_partial_key(s_private, s_public, c_public)
+partial_key = utils.generate_partial_key(s_private, c_public, s_public)
 data = str(partial_key).encode("utf-8")
 
 # encrypt the partial key
